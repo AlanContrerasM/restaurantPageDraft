@@ -1,0 +1,23 @@
+{
+  "name": "restaurantpagedraft",
+  "version": "1.0.0",
+  "description": "OdinProject restaurant draft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanContrerasM/restaurantPageDraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanContrerasM/restaurantPageDraft/issues"
+  },
+  "homepage": "https://github.com/AlanContrerasM/restaurantPageDraft#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
