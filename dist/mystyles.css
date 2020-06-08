@@ -1,0 +1,39 @@
+.main-grid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+    grid-template-rows: 1.5fr 7.5fr 1fr;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    text-align: center;
+}
+
+.header{
+    display: grid;
+    grid-template-areas: ". title nav";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+}
+
+.footer{
+    background-color: gray;
+}
+
+.item{
+    display: grid;
+    align-items: center;
+}
+#title{
+    grid-area: title;
+    font-size: 5vw;
+}
+#nav{
+    grid-area: nav;
+    justify-content: center;
+}
+#title:hover, #menu:hover, #contact:hover{
+    color: white;
+}

@@ -4,7 +4,7 @@ const myModules = (() => {
     //not necessarily useful but just to practice modules
     const create = (a) => {
         const element = document.createElement(a);
-        element.innerHTML = "Hello World #5";
+        element.innerHTML = "Hello World #6";
         return element
     };
     const speak = (a) => {
